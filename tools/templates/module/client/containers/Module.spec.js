@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { step } from 'mocha-steps';
-import Renderer from '../../../../client/testHelpers/Renderer';
-import Routes from '../../../../client/app/Routes';
+import Renderer from '../../../../../client/src/testHelpers/Renderer';
+import Routes from '../../../../../client/src/app/Routes';
 
 describe('$Module$ UI works', () => {
   const renderer = new Renderer({});
